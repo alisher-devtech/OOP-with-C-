@@ -1,60 +1,66 @@
 # 🌾 Farming Management System
 
-A full-featured **Farming Management System** developed using **C# (.NET)** with **database integration**, designed to simulate real-world agricultural operations such as crop management, inventory tracking, and expense monitoring.
+A **C# (.NET) console-based application** with MySQL database integration that simulates real-world farming operations, including crop management, inventory tracking, expense monitoring, and user management.
 
-This project demonstrates strong fundamentals in **Object-Oriented Programming (OOP)**, **input validation**, and **data handling**, making it suitable for academic and professional portfolio use.
+Designed with a focus on **clean architecture, OOP principles, and real-world system design**, this project serves as a strong academic and portfolio showcase.
 
 ---
 
 ## 🚀 Features
 
-* 🌱 **Crop Management**
+### 🌱 Farm Operations
 
-  * Add, update, and delete crop records
-  * Track crop details efficiently
+* Crop management (Add / Update / Delete)
+* Inventory tracking and stock management
+* Expense recording and monitoring
 
-* 📦 **Inventory Management**
+### 👨‍🌾 Employee Management
 
-  * Manage farming resources and stock levels
-  * Maintain organized inventory records
+* Role-based hierarchy:
 
-* 💰 **Expense Tracking**
+  * Admin
+  * Manager
+  * Supervisor
+* Structured workforce management
 
-  * Record and monitor farming expenses
-  * Basic financial management system
+### 🧑‍💼 Customer Module
 
-* ✅ **Robust Input Validation**
+* Add and manage customer records
+* Maintain structured customer data
 
-  * Prevents invalid data entry
-  * Ensures system reliability
+### 🔐 Authentication System
 
-* 🖥️ **Console-Based UI**
+* Sign Up / Sign In functionality
+* Role-based access control
+* Input validation for secure login
 
-  * Structured and user-friendly interface
-  * Clean navigation using cursor positioning
+### 🖥️ Console-Based UI
 
-* 🗄️ **Database Integration**
+* Structured and user-friendly navigation
+* Cursor-based interface for better interaction
 
-  * Persistent data storage using MySQL
-  * Real-world data handling approach
+### 🗄️ Database Integration
+
+* MySQL relational database
+* Persistent storage with CRUD operations
 
 ---
 
-## 🏗️ System Design & Architecture
+## 🧠 Key Concepts
 
-* Modular and scalable structure
-* Separation of concerns (UI, logic, data handling)
-* Reusable helper methods for input validation
-* Clean and maintainable code practices
+* Object-Oriented Programming (OOP)
+* Role-based system design
+* Input validation & error handling
+* Modular architecture (Separation of Concerns)
+* Database connectivity and CRUD operations
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Category  | Technology          |
+| Layer     | Technology          |
 | --------- | ------------------- |
-| Language  | C#                  |
-| Framework | .NET                |
+| Language  | C# (.NET)           |
 | Database  | MySQL               |
 | Interface | Console Application |
 | Tools     | Visual Studio, Git  |
@@ -63,89 +69,88 @@ This project demonstrates strong fundamentals in **Object-Oriented Programming (
 
 ## 📂 Project Structure
 
-```
+```bash
 Farming-Management-System/
 ├── src/
 │   └── FarmingManagementSystem/
 ├── database/
 │   └── schema.sql
+├── docs/
+│   └── screenshots/
 ├── README.md
 └── .gitignore
 ```
 
 ---
 
-## ⚙️ Installation & Setup
+## 📸 Screenshots
 
-### 1️⃣ Clone the Repository
+### 🔐 Authentication
+
+![Auth-UI](docs/screenshots/Auth-UI.png)
+![Sign UP](docs/screenshots/Auth-SignUP.png)
+![Customer Login](docs/screenshots/Auth-Customer.png)
+
+### 👨‍🌾 Manager Menu
+
+![Admin](docs/screenshots/Admin-Menu.png)
+
+### 👨‍🌾 Manager Menu
+
+![Manager](docs/screenshots/Manager-Menu.png)
+
+### 👨‍🌾 Supervisor Menu
+
+![Supervisor](docs/screenshots/Supervisor-Menu.png)
+
+### 🧑‍💼 Customer Module
+
+![Customer](docs/screenshots/customer-Menu.png)
+
+### 📦 Inventory Management
+
+![Inventory](docs/screenshots/inventory.png)
+
+---
+
+## ⚙️ Setup
 
 ```bash
-git clone https://github.com/yourusername/farming-management-system.git
+git clone https://github.com/alisher-devtech/farming-management-system.git
 cd farming-management-system
 ```
 
----
-
-### 2️⃣ Setup Database
-
-* Open MySQL
-* Import the SQL file:
-
-```
-database/schema.sql
-```
-
-* Update the **connection string** in your project if needed
+1. Import `database/schema.sql` into MySQL
+2. Update the database connection string
+3. Open solution in Visual Studio
+4. Build and run the application
 
 ---
 
-### 3️⃣ Run the Application
+## 🚀 Future Improvements
 
-* Open the solution file in **Visual Studio**
-* Build the project
-* Run the application
-
----
-
-## 🧠 Key Concepts Demonstrated
-
-* Object-Oriented Programming (OOP)
-* Input validation and error handling
-* Database connectivity and CRUD operations
-* Console UI design using cursor positioning
-* Modular and reusable code structure
+* GUI version (WPF / Windows Forms)
+* Web-based system (ASP.NET Core)
+* Password hashing & enhanced security
+* Reporting and analytics dashboard
 
 ---
 
-## 🚀 Future Enhancements
+## 📈 Project Highlights
 
-* GUI version (Windows Forms / WPF)
-* Web-based version (ASP.NET / React)
-* Advanced reporting and analytics
-* User authentication system
-* Role-based access control
-
----
-
-## 📈 Why This Project Matters
-
-This project reflects:
-
-* Real-world problem-solving ability
-* Strong programming fundamentals
-* Clean coding practices
-* Ability to design and implement complete systems
+* Real-world system simulation
+* Role-based architecture
+* Database-driven design
+* Clean and maintainable codebase
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
-If you'd like to improve this project:
+Contributions are welcome:
 
 1. Fork the repository
-2. Create a new branch
+2. Create a feature branch
 3. Submit a pull request
 
 ---
@@ -160,4 +165,4 @@ If you'd like to improve this project:
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub!
+If you find this project useful, consider giving it a ⭐ on GitHub.
