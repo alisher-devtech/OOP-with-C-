@@ -88,28 +88,28 @@ Farming-Management-System/
 ### 🔐 Authentication
 
 ![Auth-UI](docs/screenshots/Auth-UI.png)
-![Sign UP](docs/screenshots/Auth-SignUP.png)
-![Customer Login](docs/screenshots/Auth-Customer.png)
+![Auth-Sign UP](docs/screenshots/Auth-SignUP.png)
+![Auth-Customer](docs/screenshots/Auth-Customer.png)
 
 ### 👨‍🌾 Manager Menu
 
-![Admin](docs/screenshots/Admin-Menu.png)
+![Admin-Menu](docs/screenshots/Admin-Menu.png)
 
 ### 👨‍🌾 Manager Menu
 
-![Manager](docs/screenshots/Manager-Menu.png)
+![Manager-Menu](docs/screenshots/Manager-Menu.png)
 
 ### 👨‍🌾 Supervisor Menu
 
-![Supervisor](docs/screenshots/Supervisor-Menu.png)
+![Supervisor-Menu](docs/screenshots/Supervisor-Menu.png)
 
 ### 🧑‍💼 Customer Module
 
-![Customer](docs/screenshots/customer-Menu.png)
+![Customer-Menu](docs/screenshots/customer-Menu.png)
 
 ### 📦 Inventory Management
 
-![Inventory](docs/screenshots/inventory.png)
+![inventory](docs/screenshots/inventory.png)
 
 ---
 
