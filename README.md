@@ -87,9 +87,9 @@ Farming-Management-System/
 
 ### 🔐 Authentication
 
-![Auth UI](docs/screenshots/auth-ui.png)
+![Auth UI](docs/screenshots/Auth-UI.png)
 ![Auth Signup](docs/screenshots/auth-signup.png)
-![Customer](docs/screenshots/auth-customer.png)
+![Customer Auth](docs/screenshots/auth-customer.png)
 
 ### 👨‍🌾 Admin Menu
 
@@ -105,7 +105,7 @@ Farming-Management-System/
 
 ### 🧑‍💼 Customer Module
 
-![Supervisor Menu](docs/screenshots/supervisor-menu.png)
+![Customer Menu](docs/screenshots/customer-menu.png)
 
 ### 📦 Inventory Management
 
